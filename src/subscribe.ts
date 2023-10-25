@@ -13,7 +13,6 @@ if (btnSubmit && signForm && emailInput && mainCard && messageCard && btnMessage
     const emailSpan: HTMLElement | null = document.getElementById('email-span');
     const newEmailValue: string = emailInput.value.trim();
 
-    // Reset styles
     emailInput.style.backgroundColor = 'rgba(255, 0, 0, 0.1)';
     emailInput.style.border = '1px solid rgba(255, 0, 0, 0.5)';
     emailInput.style.color = 'red';
